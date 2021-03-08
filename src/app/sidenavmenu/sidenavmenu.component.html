@@ -1,0 +1,19 @@
+<mat-card class="sidenav-panel">
+  <mat-card-title>Side Nav</mat-card-title>
+  <mat-card-content>
+
+    <mat-sidenav-container class="sidenav-container">
+      <mat-sidenav #sidenav class="sidenav-sidenav">
+        Sidenav content goes here!
+      </mat-sidenav>
+
+      <div class="sidenav-sidenav-content">
+        <button type="button" mat-button (click)="sidenav.open()">
+          Open Sidenav
+        </button>
+      </div>
+
+    </mat-sidenav-container>
+
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,24 @@
+<div>
+  <br>
+  <mat-card class="login-card">
+    <div mat-card-avatar class="login-header-image"></div>
+    <section class="mat-typography">
+      <h3>Login</h3>
+    </section>
+    <mat-divider>  </mat-divider>
+    <br>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+     <mat-form-field >
+      <input matInput placeholder="User" formControlName="user" #user>
+    </mat-form-field>
+    <br><br>
+    <mat-form-field>
+      <input matInput type="password" placeholder="password" formControlName="password" #password>
+    </mat-form-field>
+
+    <mat-divider></mat-divider>
+    <br><br>
+    <button mat-raised-button color="primary" type="submit" >Login</button>
+    </form>
+    </mat-card>
+</div>

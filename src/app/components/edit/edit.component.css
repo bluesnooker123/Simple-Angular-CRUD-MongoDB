@@ -1,0 +1,15 @@
+.edit-form {
+
+  max-width: 300px;
+  box-align:center;
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+  border: 1px;
+
+}
+
+.field-full-width {
+
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+<div id="main_div" class="container">
+    <h1 id = "title">{{title_text}}</h1>
+    <ng2-smart-table [settings]="settings" [source]="data" 
+    (deleteConfirm)="onDeleteConfirm($event)"
+    (editConfirm)="onSaveConfirm($event)"
+    (createConfirm)="onCreateConfirm($event)"></ng2-smart-table>
+</div>

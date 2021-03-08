@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://cdn.flnf.hu/styles/ccs.css);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+mat-flat-button.mat-accent, .mat-raised-button.mat-accent, .mat-fab.mat-accent, .mat-mini-fab.mat-accent {
+  background-color:black;
+}
+
+mat-card {
+  border: 1px solid;
+  margin-top: 1%;
+}
+
+.mat-tab-label-container {
+  margin-left: 15% !important;
+}
+
+.address-style {
+  margin-top: 1%;
+}
+
+.width-97-percent {
+  width: 97%;
+}
+
+.copied-contact-details {
+  float: right;
+}
+
+.expansion-card-width {
+  width: 50%;
+  margin-left: 20%;
+  border: 2px solid aliceblue;
+  margin-top: 2%
+}
+
+.mat-select-panel-wrap{
+  position: relative;
+  top: 26px;
+}
+
+.mat-select-panel-wrap .mat-select-panel{
+  min-width: calc(100% + 12px) !important;
+  transform: translateX(4px) !important
+}
+/* button.mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary:hover {
+   opacity: 0.8;
+   background-color: black;
+} */
+

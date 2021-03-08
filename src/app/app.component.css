@@ -1,0 +1,22 @@
+.toolbar-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+.title-bar{
+  font-size: 12px;
+  padding-left: 10px;
+}
+.mat-toolbar {
+  min-height: 50px !important;
+  height: 50px !important;
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+.mat-toolbar-row {
+  min-height: 20px !important;
+  height: 20px !important;
+}

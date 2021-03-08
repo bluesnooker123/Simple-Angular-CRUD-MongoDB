@@ -1,0 +1,120 @@
+
+:host /deep/ ng2-smart-table tbody > tr > td{
+  text-align: center;
+  border: solid 1px #222222;
+}
+
+:host /deep/ ng2-smart-table thead th{
+  text-align: center;
+  border: solid 1px #222222;
+}
+:host /deep/ .ng-star-inserted tr > td{
+  border: solid 1px #222222;
+}
+
+
+/* :host /deep/ ng2-smart-table thead input-filter input{
+    text-align: center;
+}  */
+
+:host /deep/ ng2-smart-table thead > tr > td{
+  text-align: center;
+}
+
+:host /deep/ a.ng2-smart-action-add-create{
+  margin-right: 5px;
+}
+
+:host /deep/ ng2-smart-table table  input[type='checkbox']{
+    height: 24px;
+} 
+
+:host /deep/ a.ng2-smart-page-link.page-link {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: royalblue;
+  font-weight: bold;    
+  padding-top: 12px;
+  line-height: 18px;
+  }
+  /* selected paging number */
+  :host /deep/ span.ng2-smart-page-link.page-link {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+  line-height: 18px;
+  padding-top: 12px;
+  }
+  #title{
+    padding: 40px;
+  }
+
+  :host /deep/ ng2-smart-table-pager{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  /* :host /deep/ span.ng2-smart-page-item.page-item.disabled {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: grey;
+  font-weight: bold;
+  line-height: 6px;
+  padding-top: 12px;
+  }
+  
+  // previous paging button
+  :host /deep/ a.ng2-smart-page-link.page-link.page-link-prev {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: royalblue;
+  font-weight: bold;
+  line-height: 6px;
+  padding-top: 12px;
+  }
+  
+  // previous paging button disabled 
+  :host /deep/ span.ng2-smart-page-link.page-link.page-link-prev.disabled {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: grey;
+  font-weight: bold;
+  line-height: 6px;
+  padding-top: 12px;
+}
+  
+  // next paging button 
+  :host /deep/ a.ng2-smart-page-link.page-link.page-link-next {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: royalblue;
+  font-weight: bold;
+  line-height: 6px;
+  padding-top: 12px;
+}
+  
+  // next paging button 
+  :host /deep/ span.ng2-smart-page-link.page-link.page-link-next.disabled {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: grey;
+  font-weight: bold;
+  line-height: 6px;
+  padding-top: 12px;
+}
+ */

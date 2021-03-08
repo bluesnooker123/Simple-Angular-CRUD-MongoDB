@@ -1,0 +1,23 @@
+{
+  "serverMongodb": {
+    "url": "mongodb+srv://",
+    "username":"user01",
+    "password":"manager99",
+    "serverUrl":"forcecj-prwxq.mongodb.net",
+    "port":"27017",
+    "databaseName":"DBForceCJ"
+  },
+  "localMongodb": {
+    "url": "mongodb://",
+    "username":"",
+    "password":"",
+    "serverUrl":"localhost",
+    "port":"27017",
+    "databaseName":"DBForceCJ"
+  },
+  "gererateProducts_CouponsVouchers": 10,
+  "secret": "secret_key",
+  "tokenExpires": 2000,
+  "superSecret": "gOROfWnARLrbodzhKALrkTd1XTGTa6L3cuCAVKoohR2IishKtMvtZYliAhKpP7D",
+  "port": 4000
+}

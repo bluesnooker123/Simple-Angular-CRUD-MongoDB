@@ -1,0 +1,14 @@
+<mat-toolbar class="mat-toolbar" color="primary" >
+  <app-navmenu></app-navmenu>
+  <span class="title-bar"> ForceCJ Info Tech </span>
+  <span class="toolbar-fill-remaining-space"></span>
+  <!-- <span class="title-bar"> Hello </span> -->
+  <span class="title-bar" *ngIf="this.currentUser"> Hello! {{this.currentUser.firstname}}  </span>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+<p></p>
+<mat-toolbar class="mat-toolbar" color="primary" >
+  <mat-icon>copyright</mat-icon>
+  <span class="title-bar">ForceCJ 2020 </span>
+</mat-toolbar>

@@ -1,0 +1,35 @@
+<mat-card class="reg-card">
+  <section class="mat-typography">
+    <h3>User Registration</h3>
+  </section>
+  <mat-divider>  </mat-divider>
+  <br>
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="Cloud Id" formControlName="cloudid" #cloudid>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="Company name" formControlName="companyname" #companyname>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="First name" formControlName="firstname" #firstname>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="Last name" formControlName="lastname" #lastname>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="User" formControlName="user" #user>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="field-full-width">
+          <input matInput placeholder="Password" formControlName="password" #password>
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" type="submit"  [disabled]="loading" class="btn btn-primary">Register</button>
+        <button mat-raised-button color="accent"  routerLink="/"  [disabled]="loading" class="btn btn-primary">Cancel</button>
+</form>
+</mat-card>

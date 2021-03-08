@@ -1,0 +1,12 @@
+.login-card {
+  max-width: 300px;
+  box-align:center;
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.login-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
